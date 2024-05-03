@@ -1,5 +1,5 @@
-let userName = "Igor"
+let firstName = "Igor"
 let age = "35"
 let city = "Warsaw"
 
-console.log("Hello ",userName)
+console.log("Hello ",firstName)
