@@ -29,30 +29,6 @@ let servicePriceTwo = +prompt("Сколько будет стоить этот �
 let screenPrice = 38000;
 let percentage = 15;
 
-// let fullPrice = screenPrice + servicePriceOne + servicePriceTwo;
-// console.log(fullPrice, "Общая сумма");
-
-
-// console.log(percentageResult, "Сумма процента подрядчику");
-
-// let servicePercentPrice = fullPrice - percentageResult;
-// console.log(Math.round(servicePercentPrice), "Сумма в карман))");
-
-//   if (fullPrice >= 50000) {
-//     console.log("Скидка 10%");
-//   } else if (fullPrice >= 20000 && fullPrice <= 49999) {
-//     console.log("Скидка 5%");
-//   } else if (fullPrice >= 0 && fullPrice <= 19999) {
-//     console.log("Скидка не предусмотрена");
-//   } else {
-//     console.log("Что то пошло не так");
-//   }
-
-// let servicePriceOne = +prompt('Первая сумма');
-// let servicePriceTwo = +prompt('Вторая сумма');
-// let screenPrice = +prompt('Сумма за экраны');
-// let percentageResult = +prompt('Сумма процента подрядчику');
-
 // task 1
 const getAllServicePrices = function(sumA, sumB) {
     return sumA + sumB;
